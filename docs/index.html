@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css">
 
 <h1>NewCode Documentation</h1>
-<p>Newthings uses the NewCode Programming Language. It uses the extension `.nt5`, and provides a lot of features, for example, buttons, text and cameras.</p>
+<p>Newthings uses the NewCode Programming Language. It uses the extension <b>.nt5</b>, and provides a lot of features, for example, buttons, text and cameras.</p>
 <br>
 <h2>Camera Functions</h2>
 <div class="code">
@@ -35,7 +35,7 @@
   <br>
   <span style="color:dimgray">@ Default values</span><br>
   <span style="color:darkviolet">name</span> = "Button"<br>
-  <span style="color:darkviolet">position</span> = center <span style="color:dimgray">@ If that position already has a button, it will move to a different location.</span><br>
+  <span style="color:darkviolet">position</span> = center <span style="color:dimgray">@ If that position already has text or buttons, it will move to a different location.</span><br>
   <span style="color:darkviolet">action</span> = none<br>
   <span style="color:darkviolet">size</span> = large<br>
 </div>
@@ -64,27 +64,26 @@
 
 <br>
 
-<!--
 <h2>Text</h2>
 <div class="code">
   <span style="color:dimgray">@ Add  text saying "Hello World!"</span><br>
   <span style="color:green">text(</span><span style="color:darkcyan">"Hello World!"</span><span style="color:green">)</span><br>
   <br>
-  <span style="color:dimgray">@ Add grey text saying "Grey Text"</span><br>
-  <span style="color:green">button(</span><span style="color:darkcyan">"Click Me"</span><span style="color:darkviolet">, position=</span><span style="color:darkcyan">bottom-right</span><span style="color:darkviolet">, action=</span><span style="color:darkcyan">1</span><span style="color:darkviolet">, size=</span><span style="color:darkcyan">medium</span><span style="color:green">)</span><br>
+  <span style="color:dimgray">@ Add grey text saying "Grey Text" with center-left position</span><br>
+  <span style="color:green">text(</span><span style="color:darkcyan">"Grey Text"</span><span style="color:darkviolet">, color=</span><span style="color:darkcyan">grey</span><span style="color:darkviolet">, position=</span><span style="color:darkcyan">center-left</span><span style="color:green">)</span><br>
   <span style="color:dimgray">@ See more information about actions below in the "Lists" section.</span><br>
   <br>
   <span style="color:dimgray">@ Full syntax</span><br>
   <span style="color:green">button(</span><span style="color:darkviolet">name, position, action, size</span><span style="color:green">)</span><br>
   <br>
   <span style="color:dimgray">@ Default values</span><br>
-  <span style="color:darkviolet">name</span> = "Button"<br>
-  <span style="color:darkviolet">position</span> = center <span style="color:dimgray">@ If that position already has a button, it will move to a different location.</span><br>
-  <span style="color:darkviolet">action</span> = none<br>
-  <span style="color:darkviolet">size</span> = large<br>
+  <span style="color:darkviolet">name</span> = "Text"<br>
+  <span style="color:darkviolet">color</span> = white<br>
+  <span style="color:darkviolet">position</span> = center <span style="color:dimgray">@ If that position already has text or buttons, it will move to a different location.</span><br>
+  <br><br>
+  <span style="color:dimgray">@ Note that the only text colors that are supported are white and gray.
 </div>
 <br>
--->
 
 <h2><i><span style="color:dimgray">Under Construction...</span></i></h2>
 
